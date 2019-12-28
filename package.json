@@ -4,6 +4,9 @@
     "description": "React Boilerplate Component for npm",
     "main": "./lib/index.js",
     "license": "MIT",
+    "files": [
+        "lib/**/*"
+    ],
     "scripts": {
         "build": "npm run lint && webpack",
         "lint": "eslint --ext=jsx,ts,tsx,js src",
